@@ -1,0 +1,23 @@
+{
+  "name": "nodetest1",
+  "version": "1.0.0",
+  "description": "this is a test package json for npm",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startServer": "nodemon server.js"
+  },
+  "keywords": [
+    "NODE",
+    "NPM"
+  ],
+  "author": "Seb P",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.4.1"
+  }
+}
